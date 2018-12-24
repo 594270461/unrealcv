@@ -1,5 +1,6 @@
 #include "UnrealCVPrivate.h"
-#include "Regex.h"
+//#include "Regex.h"
+#include "Internationalization/Regex.h"
 #include "CommandDispatcher.h"
 //atif
 // CommandDispatcher->BindCommand("vset /mode/(?<ViewMode>.*)", SetViewMode); // Better to check the correctness at compile time
